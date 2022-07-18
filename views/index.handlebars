@@ -1,0 +1,36 @@
+<div class="container col-8">
+    <div class="d-flex justify-content-center my-3">
+        <h2>你想對誰說幹話？</h2>
+    </div>
+    <form method="POST" action="/">
+        <div class="row d-flex">
+            <div class="form-check col-4 d-flex flex-column">
+                <label for="engineer"><img src="/img/angry-developer.jpg" class="img-fluid" style="width: 300px; height: 200px; object-fit: contain;" alt="developer"></label>
+                <div class="d-flex mt-2">
+                    <input class="form-check-input" type="radio" name="target" id="engineer" value="engineer">
+                    <label class="form-check-label" for="engineer">工程師</label>
+                </div>
+            </div>
+
+            <div class="form-check col-4 d-flex flex-column">
+                <label for="designer"><img src="/img/angry-designer.jpg" class="img-fluid" style="width: 300px; height: 200px; object-fit: contain;" alt="developer"></label>
+                <div class="d-flex mt-2">
+                    <input class="form-check-input" type="radio" name="target" id="designer" value="designer">
+                    <label class="form-check-label" for="designer">設計師</label>
+                </div>
+            </div>
+
+            <div class="form-check col-4 d-flex flex-column">
+                <label for="entrepreneur"><img src="/img/angry-founder.jpg" class="img-fluid" style="width: 300px; height: 200px; object-fit: contain;" alt="developer"></label>
+                <div class="d-flex mt-2">
+                    <input class="form-check-input" type="radio" name="target" id="entrepreneur" value="entrepreneur">
+                    <label class="form-check-label" for="entrepreneur">創業家</label>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex align-items-start mt-3 justify-content-center">
+            <button type="submit" class="btn btn-primary col-2">產生幹話</button>
+            <textarea class="form-control ms-5" id="textarea1" rows="2" >{{talkingShit}}</textarea>            
+        </div>
+    </form>
+</div>
