@@ -1,4 +1,6 @@
-# 幹話產生器
+## 幹話產生器
+
+![talking shit generator cover](./public/img/talking_shit_cover.png)
 ### 開發背景
 生活很苦，但你要甜。
 小惡魔已上線，來對這些人講講幹話吧！
